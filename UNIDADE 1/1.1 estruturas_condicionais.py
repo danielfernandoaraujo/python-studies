@@ -11,6 +11,8 @@ elif codigo_compra == 5444:
 else:   
     print("Código não cadastrado")
 
-'''Em Python, não existe o comando switch. 
+'''
+Em Python, não existe o comando switch. 
 Para construir uma estrutura encadeada, devemos usar o comando "elif", 
-que é uma abreviação de else if.'''
+que é uma abreviação de else if.
+'''

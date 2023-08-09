@@ -1,5 +1,7 @@
-'''WHILE - deve ser utilizado para construir e controlar a estrutura decisão,
- sempre que o número de repetições não seja conhecido.'''
+'''
+WHILE - deve ser utilizado para construir e controlar a estrutura decisão,
+sempre que o número de repetições não seja conhecido.
+'''
 
 numero = 1
 while numero != 0:
@@ -9,8 +11,10 @@ while numero != 0:
     else:
         print('Número impar!')
 
-'''FOR - uma forma de percorrer uma lista (ou coleção de itens) e executar uma ação para cada item da lista.
-É como se você tivesse uma lista de coisas, e quisesse fazer algo com cada uma delas, uma após a outra.'''
+'''
+FOR - uma forma de percorrer uma lista (ou coleção de itens) e executar uma ação para cada item da lista.
+É como se você tivesse uma lista de coisas, e quisesse fazer algo com cada uma delas, uma após a outra.
+'''
 
 numeros = [1, 2, 3, 4, 5]
 
