@@ -7,7 +7,7 @@ a lista esteja ordenada.
 
 def selection_sort(lista):
     n = len(lista)
-    for j in range(n):
+    for j in range(n-1):
         min_index = j
         for i in range(j,n):
                 if lista[i] < lista[min_index]:
