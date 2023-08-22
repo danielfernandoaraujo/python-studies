@@ -1,15 +1,17 @@
 '''
-WHILE - deve ser utilizado para construir e controlar a estrutura decisão,
-sempre que o número de repetições não seja conhecido.
+Em Python, o while é uma estrutura de controle que permite executar um bloco de código 
+repetidamente enquanto uma determinada condição for verdadeira. 
+Em outras palavras, ele cria um loop que executa as instruções dentro do bloco de código 
+enquanto a expressão booleana especificada for avaliada como verdadeira. 
+Assim que a condição se torna falsa, a execução do loop é interrompida e o 
+programa continua com o código após o bloco while.
 '''
+contador = 0
 
-numero = 1
-while numero != 0:
-    numero = int(input('digite um numero: '))
-    if numero % 2 == 0:
-        print('Número par!')
-    else:
-        print('Número impar!')
+while contador < 5:
+    print(f"Contador: {contador}")
+    contador += 1
+
 
 '''
 FOR - uma forma de percorrer uma lista (ou coleção de itens) e executar uma ação para cada item da lista.
